@@ -20,6 +20,7 @@
   font-size: 25px;
   line-height: 1;
   text-transform: uppercase;
+  text-align: center;
 }
 .footer__inner .footer__top--line .footer__navigation--list {
   display: grid;

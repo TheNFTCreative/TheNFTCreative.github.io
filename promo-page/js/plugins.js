@@ -69,3 +69,12 @@
      document.querySelector('.burger-menu').onclick = function(){
           document.querySelector('.menu-icon').classList.toggle('menu-icon-active');
      };
+
+     function main() {
+          let mainSection = document.querySelector('.main');
+          setTimeout(function () {
+               mainSection.style.visibility = 'visible';
+               mainSection.style.removeProperty('height');
+          },10);
+     }
+     window.addEventListener("load", main);

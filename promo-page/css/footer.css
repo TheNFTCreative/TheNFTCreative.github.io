@@ -1,0 +1,39 @@
+.footer {
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #FF3CAC;
+  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+}
+.footer__inner {
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 20px 20px;
+}
+.footer__inner .footer__top--line {
+  display: grid;
+  justify-items: center;
+  font-family: "Fragua Pro Extra", serif;
+  font-weight: bold;
+  font-style: normal;
+  color: white;
+  font-size: 25px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+.footer__inner .footer__top--line .footer__navigation--list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.footer__inner .footer__top--line ul {
+  margin: 0;
+  padding: 0;
+}
+.footer__inner .footer__top--line ul li {
+  display: inline-block;
+  padding-right: 30px;
+  text-align: center;
+}
+.footer__inner .footer__top--line ul li ul li {
+  display: block;
+}

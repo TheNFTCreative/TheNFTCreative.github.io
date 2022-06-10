@@ -1,0 +1,31 @@
+
+@font-face {
+  font-family: 'Fragua Pro Extra';
+  src: url('../fonts/FraguaPro-ExtraBold.woff2') format('woff2'),
+  url('../fonts/FraguaPro-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+/*title*/
+@font-face {
+  font-family: 'Evanston Tavern 1858';
+  src: url('../fonts/EvanstonTavern-1858Bold.woff2') format('woff2'),
+  url('../fonts/EvanstonTavern-1858Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+/*description*/
+
+
+/*.your-style {*/
+/*  font-family: 'Fragua Pro Extra';*/
+/*  font-weight: bold;*/
+/*  font-style: normal;*/
+/*}*/
+/*.your-style {*/
+/*  font-family: 'Evanston Tavern 1858';*/
+/*  font-weight: bold;*/
+/*  font-style: normal;*/
+/*}*/

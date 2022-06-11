@@ -226,6 +226,16 @@ header .mobile-navigation {
     left: 20px;
     width: 120px;
   }
+  header .mobile-navigation .mobile-social {
+    display: grid;
+    justify-self: start;
+    grid-auto-flow: column;
+    gap: 10px;
+  }
+  header .mobile-navigation .mobile-social a svg {
+    width: 40px;
+    height: 40px;
+  }
   header .mobile-navigation ul li {
     color: rgba(234, 99, 48, 0.7);
   }
